@@ -53,7 +53,7 @@ module.exports = {
                   fixes.push(fixer.remove(previousToken));
                 }
                 if (nextTokenText === ',') {
-                  fixes.push(fixer.remove(nextTokenText));
+                  fixes.push(fixer.remove(nextToken));
                 }
                 return fixes;
               }
